@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  width: 100%;
+  margin-top: 20px;
+  height: 74px;
+}
+header .right {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+}
+header .search i {
+  padding-right: 0px;
+}
+header .search input {
+  border: 0px;
+  border-bottom: 1px solid black;
+}
+header .search {
+  color: black;
+}
+header .search div {
+  margin-left: 20px;
+  float: left;
+  margin-bottom: 30px;
+}
+header nav {
+  float: left;
+  height: 100%;
+  margin-left: 30%;
+}
+header .right ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header .right ul {
+  margin-left: 50%;
+}
+header .right ul li a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+main .banner {
+  background-image: url("https://static.wixstatic.com/media/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.jpg/v1/fill/w_1825,h_475,al_b,q_85,usm_0.66_1.00_0.01/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.webp");
+  height: 470px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .banner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #f2f2f2;
+  text-align: center;
+}
+main .banner p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #f2f2f2;
+  text-align: center;
+}
